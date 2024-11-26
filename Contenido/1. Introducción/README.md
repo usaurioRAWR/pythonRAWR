@@ -1,6 +1,6 @@
 # 1. Introducción
 
-## 1.1. Ventajas de Python
+## [1.1. Ventajas de Python]
 
 ### 1.1.1. Fácil de aprender
 ### 1.1.2. Amplia comunidad
