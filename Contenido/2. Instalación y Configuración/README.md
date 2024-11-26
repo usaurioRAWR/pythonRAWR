@@ -4,7 +4,7 @@
 
 - #### 2.1.1. Windows
 - #### 2.1.2. macOS
-- #### 2.1.3. Linux
+- #### 2.1.3. GNU/Linux
 
 ### 2.2. Entornos de Desarrollo Integrado (IDE)
 
