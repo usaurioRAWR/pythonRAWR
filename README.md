@@ -1,30 +1,83 @@
-## ¿Por qué elegir Python?
+## pythonRAWR
 
-Python es una excelente opción si buscas automatizar tareas complejas, escribir bases de datos personalizadas o crear aplicaciones gráficas. Es fácil de usar, está disponible en muchos sistemas operativos y tiene una gran comunidad de desarrolladores que te apoyan.
+¡Prepárate para rugir con **pythonRAWR**, el curso que te transformará en un programador Python desde cero!  No importa si eres un novato absoluto o tienes alguna experiencia previa, **pythonRAWR** te guiará paso a paso por los fundamentos de este poderoso lenguaje. Aprenderás desde lo básico: tipos de datos, variables y estructuras de control, hasta conceptos más avanzados como funciones, programación orientada a objetos y el manejo de bibliotecas esenciales para el análisis de datos como Pandas y NumPy. 
+##### ¡Desata tu potencial con **pythonRAWR** y conviértete en un maestro del código! 
 
-## ¿Qué tipo de tarea necesitas resolver?
 
-Quizás estás buscando automatizar tareas como:
+## Indice.
 
-* Buscar y reemplazar texto en muchos archivos
-* Renombrar y organizar imágenes con dificultad
-* Escribir bases de datos personalizadas o interactuales
-* Crear aplicaciones gráficas o juegos sencillas
+1. Introducción
 
-## ¿Qué es un script de shell?
+    1.1. Ventajas de Python
 
-Un script de shell es una herramienta que te permite mover archivos, cambiar datos de texto y ejecutar comandos directamente en el sistema operativo. No son ideales para juegos ni aplicaciones gui.
+        1.1.1. Fácil de aprender
+        1.1.2. Amplia comunidad
+        1.1.3. Aplicaciones variadas
 
-## ¿Por qué no escribir un programa C/C++/Java?
+    1.2. Historia de Python
 
-Escribir un programa en C/C++ o Java puede llevar mucho tiempo de desarrollo y requerir una gran cantidad de código. Además, Python es más fácil de usar y te permite crear programas compactos y legibles.
+        1.2.1. Creación por Guido van Rossum
+        1.2.2. Evolución de la versión 1.0 a 3.x
 
-**¡Vamos a empezar!**
 
-En el próximo capítulo aprenderás la mecánica básica del intérprete de Python. Estos son los primeros pasos para poder explorar y jugar con el lenguaje de Python:
+2. Instalación y Configuración
 
-* Expresiones: cómo expresas tus ideas en código
-* Instrucciones: cómo ejecutas bloques de código
-* Tipos de datos: cómo manejas las variables y la estructura de datos
+    2.1. Descarga e Instalación
 
-Estos conceptos básicos te permitirán empezar a construir proyectos sencillos y aprender el lenguaje de Python de manera intuitiva. ¡Vamos a explorar juntos!
+        2.1.1. Windows
+        2.1.2. Sistema operativo Mac
+        2.1.3. Linux
+
+    2.2. Entornos de Desarrollo Integrado (IDE)
+
+        2.2.1. Visual Studio Code
+        2.2.2. PyCharm
+        2.2.3. Espía
+
+
+3. Básicos de Python
+
+    3.1. Tipos de Variables
+
+        3.1.1. Enteros
+        3.1.2. Flotantes
+        3.1.3. Cadenas
+        3.1.4. Booleanos
+
+    3.2. Operadores
+
+        3.2.1. Aritméticos
+        3.2.2. Comparación
+        3.2.3. Lógicos
+
+
+    3.3. Estructuras de Control
+
+        3.3.1. Condicionales (if-else)
+        3.3.2. Bucles (for, while)
+
+
+    3.4. Funciones
+
+        3.4.1. Definición y llamada
+        3.4.2. Argumentos y parámetros
+
+
+4. Programación Orientada a Objetos (POO)
+
+    4.1. Clases y Objetos
+
+        4.1.1. Definición de clases
+        4.1.2. Instanciación de objetos
+
+
+    4.2. Herencia
+
+        4.2.1. Herencia única
+        4.2.2. Herencia múltiple
+
+
+    4.3. Polimorfismo
+
+        4.3.1. Métodos sobrecargados
+        4.3.2. Métodos sobrescritos
