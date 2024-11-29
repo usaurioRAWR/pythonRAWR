@@ -8,6 +8,8 @@ En programación, una variable es como un contenedor que almacena información. 
 
 Python ofrece varios tipos de variables, cada uno diseñado para almacenar un tipo específico de dato:
 
+----
+
 - #### 3.1.1. Enteros (int)
 
 Los enteros son uno de los tipos de datos más básicos y fundamentales en programación. En Python, los enteros (**int**) representan números enteros, sin decimales.  
@@ -69,6 +71,7 @@ cociente = 15 // 4   # cociente será 3 (parte entera de la división)
 ```python
 print(type(edad)) # Output: <class 'int'>
 ```
+-----
 
 - #### 3.1.2. Flotantes (float)
 
