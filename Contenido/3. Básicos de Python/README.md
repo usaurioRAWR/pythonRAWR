@@ -8,14 +8,19 @@ En programación, una variable es como un contenedor que almacena información. 
 
 Python ofrece varios tipos de variables, cada uno diseñado para almacenar un tipo específico de dato:
 
+Para verificar el tipo de una variable, puedes usar la función `type()`:
+
+```python
+edad = 25
+print(type(edad)) # Output: <class 'int'>
+```
 ## 3.1.1. Enteros (int)
 
-Los enteros son uno de los tipos de datos más básicos y fundamentales en programación. En Python, los enteros (**int**) representan números enteros, sin decimales.  
+Los enteros son uno de los tipos de datos más básicos y fundamentales en programación. En Python, los enteros (**int**) representan números enteros, sin decimales. Una característica importante es que no tienen un límite superior o inferior fijo; pueden ser tan grandes como sea necesario para representar los datos que estés trabajando.
 
 Piensa en ellos como los números que usas para contar objetos o expresar cantidades exactas:
 
 * **Ejemplos:** 10, -5, 0, 1000, -25
-
 
 ### ¿Para qué sirven los enteros?
 
@@ -41,42 +46,66 @@ cantidad_de_productos = 10
 temperatura = -5
 ```
 
-### Operaciones con enteros:
-
-Python te permite realizar operaciones matemáticas básicas con enteros:
-
-* **Suma:** `+`
-* **Resta:** `-`
-* **Multiplicación:** `*`
-* **División (entera):** `/` (en Python 3, la división siempre devuelve un número decimal, incluso si los operandos son enteros. Para obtener la parte entera de la división, utiliza el operador `//`)
+### Ejercicio;
 
 ```python
-resultado_suma = 5 + 10 # resultado_suma será 15
-diferencia = 20 - 8  # diferencia será 12
-producto = 3 * 7    # producto será 21
-cociente = 15 // 4   # cociente será 3 (parte entera de la división)
+# Crea dos variables enteras
+edad = 25
+cantidad_de_manzanas = 10
 
-```
+# Imprime las variables en pantalla
+print("Edad:", edad)
+print("Cantidad de manzanas:", cantidad_de_manzanas)
 
-
-### Algunas cosas importantes a recordar:
-
-
-
-* **Rango:** Los enteros en Python no tienen un límite superior o inferior fijo. Pueden ser tan grandes como sea necesario para representar los datos que estés trabajando.
-* **Tipo:** Para verificar si una variable es de tipo entero, puedes usar la función `type()`:
-
-```python
-print(type(edad)) # Output: <class 'int'>
+# Terminal Output:
+Edad: 25
+Cantidad de manzanas: 10
 ```
 
 ## 3.1.2. Flotantes (float)
 
-Los flotantes representan números con decimales, como 3.14, -2.5 o 0.0.
+Los **flotantes**, también conocidos como *números de punto flotante* (**float**) en Python, son esenciales para representar números con decimales.  
+
+Imagina que necesitas trabajar con cantidades más precisas, como precios, temperaturas o medidas científicas. Los flotantes te permiten almacenar estos valores con la precisión necesaria.
+
+### ¿Para qué sirven los flotantes?
+
+Los flotantes son útiles cuando:
+
+* Necesitas representar **cantidades con decimales**.
+* Realizas **cálculos que involucran números con partes fraccionarias**.
+
+### Limitaciones de los Flotantes:
+
+Es importante tener en cuenta que, aunque Python maneja los flotantes con gran precisión, estos tienen una representación finita en la memoria. Esto significa que solo pueden almacenar un número limitado de dígitos decimales.  
+
+En la mayoría de los casos, esta limitación no será un problema. Sin embargo, si necesitas una precisión extrema para cálculos científicos o financieros, podrías considerar utilizar la biblioteca `decimal` de Python, que permite controlar la cantidad de dígitos decimales.
+
+### Crear flotantes en Python:
+
+Para crear un flotante, simplemente escribe el número incluyendo un punto decimal.
 
 ```python
-price = 19.99
-temperature = -2.7
+precio = 19.99
+altura = 1.75
+pi = 3.14159 
+```
+
+### Ejercicio:
+
+
+```python
+# Crea dos variables flotantes
+precio_cafe = 2.50
+temperatura_ambiente = 25.5
+
+# Imprime las variables en pantalla
+print("Precio del café:", precio_cafe)
+print("Temperatura ambiente:", temperatura_ambiente)
+
+# Terminal Output:
+Precio del café: 2.5
+Temperatura ambiente: 25.5
 ```
 
 ## 3.1.3. Cadenas (str)
