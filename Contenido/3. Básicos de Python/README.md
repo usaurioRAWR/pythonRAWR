@@ -11,8 +11,9 @@ Python ofrece varios tipos de variables, cada uno diseñado para almacenar un ti
 Para verificar el tipo de una variable, puedes usar la función `type()`:
 
 ```python
-edad = 25
-print(type(edad)) # Output: <class 'int'>
+>>> edad = 25
+>>> print(type(edad))
+<class 'int'>
 ```
 ## 3.1.1. Enteros (int)
 
@@ -41,24 +42,22 @@ Suma, resta, multiplicación, división (siempre que el resultado sea un entero)
 Es muy sencillo crear un entero en Python. Simplemente escribe el número sin decimales:
 
 ```python
-edad = 25
-cantidad_de_productos = 10
-temperatura = -5
+>>>edad = 25
+>>>cantidad_de_productos = 10
+>>>temperatura = -5
 ```
 
 ### Ejercicio;
 
 ```python
 # Crea dos variables enteras
-edad = 25
-cantidad_de_manzanas = 10
+>>> edad = 25
+>>> cantidad_de_manzanas = 10
 
 # Imprime las variables en pantalla
-print("Edad:", edad)
-print("Cantidad de manzanas:", cantidad_de_manzanas)
-
-# Terminal Output:
+>>> print("Edad:", edad)
 Edad: 25
+>>> print("Cantidad de manzanas:", cantidad_de_manzanas)
 Cantidad de manzanas: 10
 ```
 
@@ -86,9 +85,9 @@ En la mayoría de los casos, esta limitación no será un problema. Sin embargo,
 Para crear un flotante, simplemente escribe el número incluyendo un punto decimal.
 
 ```python
-precio = 19.99
-altura = 1.75
-pi = 3.14159 
+>>> precio = 19.99
+>>> altura = 1.75
+>>> pi = 3.14159 
 ```
 
 ### Ejercicio:
@@ -96,25 +95,101 @@ pi = 3.14159
 
 ```python
 # Crea dos variables flotantes
-precio_cafe = 2.50
-temperatura_ambiente = 25.5
+>>> precio_cafe = 2.50
+>>> temperatura_ambiente = 25.5
 
 # Imprime las variables en pantalla
-print("Precio del café:", precio_cafe)
-print("Temperatura ambiente:", temperatura_ambiente)
-
-# Terminal Output:
+>>> print("Precio del café:", precio_cafe)
 Precio del café: 2.5
+>>> print("Temperatura ambiente:", temperatura_ambiente)
 Temperatura ambiente: 25.5
 ```
 
 ## 3.1.3. Cadenas (str)
 
-Las cadenas almacenan texto entre comillas simples (' ') o dobles (" ").
+
+Las **cadenas** en Python (**str**) son secuencias inmutables de caracteres.  
+
+Imagina que quieres trabajar con texto: nombres, frases, párrafos completos. Las cadenas te permiten almacenar y manipular este tipo de información.
+
+### ¿Para qué sirven las cadenas?
+
+Las cadenas son esenciales para:
+
+* **Representar texto:** Puedes guardar nombres, mensajes, artículos completos, etc.
+* **Manipular texto:** Python ofrece muchas herramientas para buscar, reemplazar, dividir o unir cadenas.
+* **Comunicación:** Se utilizan para mostrar información al usuario (impresión en pantalla) y para recibir entradas del usuario.
+
+### Crear cadenas en Python:
 
 ```python
-name = "Alice"
-message = 'Hello, world!'
+>>> nombre = "Ada"
+>>> frase = 'El conocimiento es poder'
+>>> cita = """Esto es una cadena
+de múltiples líneas"""
+```
+
+### Puntos importantes:
+
+* **Comillas simples o dobles:**
+Puedes usar comillas simples (`'`) o dobles (`"`) para definir una cadena. 
+
+```python
+# Usando comillas simples
+>>> nombre = 'Alice'
+print(nombre)
+Alice
+
+# Usando comillas dobles
+>>> saludo = "Hola, mundo!"
+print(saludo)
+Hola, mundo!
+```
+
+* **Caracteres especiales:**
+Si tu cadena contiene caracteres especiales como comillas dentro del texto, puedes usar el tipo de comilla opuesto para delimitarla, o escapar el carácter especial con una barra invertida (`\`).
+
+```python
+# Usando comillas dobles para incluir comillas simples dentro del texto
+>>> frase = "Él dijo: 'Hola'"
+>>> print(frase)
+Él dijo: 'Hola'
+
+# Usando comillas simples y escapando la comilla simple interna con \
+>>> otra_frase = 'Ella dijo: \'Buenos días\''
+>>> print(otra_frase)
+Ella dijo: 'Buenos días'
+```
+
+* **Cadenas multilínea:**
+Las cadenas pueden ocupar varias líneas usando triples comillas;
+> '''Texto multilínea'''
+
+> """Texto multilínea"""
+
+```python
+>>> poema = """Las estrellas brillan en el cielo,
+tan lejanas y misteriosas.
+Su luz nos guía a través de la noche."""
+>>> print(poema)
+Las estrellas brillan en el cielo,
+tan lejanas y misteriosas.
+Su luz nos guia a través de la noche.
+```
+
+
+### Ejercicio:
+
+```python
+# Crea dos variables cadena
+>>> nombre = "Alice"
+>>> saludo = "Hola, ¿cómo estás?"
+
+# Imprime las variables en pantalla
+>>> print("Nombre:", nombre)
+Nombre: Alice
+>>> print(saludo)
+Hola, ¿cómo estás?
 ```
 
 ## 3.1.4. Booleanos (bool)
@@ -122,8 +197,8 @@ message = 'Hello, world!'
 Los booleanos representan valores de verdad: `True` o `False`.
 
 ```python
-is_logged_in = True
-has_permission = False
+>>> is_logged_in = True
+>>> has_permission = False
 ```
 
 ## 3.2. Operadores
