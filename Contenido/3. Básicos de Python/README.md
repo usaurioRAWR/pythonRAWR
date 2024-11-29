@@ -42,8 +42,8 @@ Suma, resta, multiplicación, división (siempre que el resultado sea un entero)
 Es muy sencillo crear un entero en Python. Simplemente escribe el número sin decimales:
 
 ```python
->>>edad = 25
->>>cantidad_de_productos = 10
+>>> edad = 25
+>>> cantidad_de_productos = 10
 >>>temperatura = -5
 ```
 
