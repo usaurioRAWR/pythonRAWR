@@ -10,7 +10,7 @@ Python ofrece varios tipos de variables, cada uno diseñado para almacenar un ti
 
 ----
 
-- #### 3.1.1. Enteros (int)
+## 3.1.1. Enteros (int)
 
 Los enteros son uno de los tipos de datos más básicos y fundamentales en programación. En Python, los enteros (**int**) representan números enteros, sin decimales.  
 
