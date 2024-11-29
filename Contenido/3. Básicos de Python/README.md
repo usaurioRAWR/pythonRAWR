@@ -4,15 +4,70 @@ Esta sección te introduce a los tipos de variables y operadores fundamentales e
 
 ### 3.1. Tipos de Variables
 
-Las variables son contenedores que almacenan datos en tu programa. Python ofrece varios tipos de variables para diferentes tipos de datos:
+En programación, una variable es como un contenedor que almacena información. Puedes pensar en ella como una caja etiquetada donde guardas datos para usarlos más adelante en tu programa.
+
+Python ofrece varios tipos de variables, cada uno diseñado para almacenar un tipo específico de dato:
 
 - #### 3.1.1. Enteros (int)
 
-Los enteros representan números enteros sin decimales, como 10, -5 o 0. 
+Los enteros son uno de los tipos de datos más básicos y fundamentales en programación. En Python, los enteros (**int**) representan números enteros, sin decimales.  
+
+Piensa en ellos como los números que usas para contar objetos o expresar cantidades exactas:
+
+* **Ejemplos:** 10, -5, 0, 1000, -25
+
+
+### ¿Para qué sirven los enteros?
+
+Los enteros son esenciales para muchas tareas en programación, como:
+
+* **Conteo:**  
+Mantener un registro de cuántas veces se ha ejecutado una acción.
+
+* **Índices:**  
+Acceder a elementos específicos dentro de listas o cadenas de texto.
+
+* **Cálculos matemáticos básicos:** 
+Suma, resta, multiplicación, división (siempre que el resultado sea un entero).
+
+
+### Crear enteros en Python:
+
+Es muy sencillo crear un entero en Python. Simplemente escribe el número sin decimales:
 
 ```python
-age = 25
-quantity = -10
+edad = 25
+cantidad_de_productos = 10
+temperatura = -5
+```
+
+### Operaciones con enteros:
+
+Python te permite realizar operaciones matemáticas básicas con enteros:
+
+* **Suma:** `+`
+* **Resta:** `-`
+* **Multiplicación:** `*`
+* **División (entera):** `/` (en Python 3, la división siempre devuelve un número decimal, incluso si los operandos son enteros. Para obtener la parte entera de la división, utiliza el operador `//`)
+
+```python
+resultado_suma = 5 + 10 # resultado_suma será 15
+diferencia = 20 - 8  # diferencia será 12
+producto = 3 * 7    # producto será 21
+cociente = 15 // 4   # cociente será 3 (parte entera de la división)
+
+```
+
+
+### Algunas cosas importantes a recordar:
+
+
+
+* **Rango:** Los enteros en Python no tienen un límite superior o inferior fijo. Pueden ser tan grandes como sea necesario para representar los datos que estés trabajando.
+* **Tipo:** Para verificar si una variable es de tipo entero, puedes usar la función `type()`:
+
+```python
+print(type(edad)) # Output: <class 'int'>
 ```
 
 - #### 3.1.2. Flotantes (float)
