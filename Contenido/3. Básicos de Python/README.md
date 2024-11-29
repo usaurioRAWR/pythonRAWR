@@ -2,13 +2,11 @@
 
 Esta sección te introduce a los tipos de variables y operadores fundamentales en Python.
 
-### 3.1. Tipos de Variables
+## 3.1. Tipos de Variables
 
 En programación, una variable es como un contenedor que almacena información. Puedes pensar en ella como una caja etiquetada donde guardas datos para usarlos más adelante en tu programa.
 
 Python ofrece varios tipos de variables, cada uno diseñado para almacenar un tipo específico de dato:
-
-----
 
 ## 3.1.1. Enteros (int)
 
@@ -71,9 +69,8 @@ cociente = 15 // 4   # cociente será 3 (parte entera de la división)
 ```python
 print(type(edad)) # Output: <class 'int'>
 ```
------
 
-- #### 3.1.2. Flotantes (float)
+## 3.1.2. Flotantes (float)
 
 Los flotantes representan números con decimales, como 3.14, -2.5 o 0.0.
 
@@ -82,7 +79,7 @@ price = 19.99
 temperature = -2.7
 ```
 
-- #### 3.1.3. Cadenas (str)
+## 3.1.3. Cadenas (str)
 
 Las cadenas almacenan texto entre comillas simples (' ') o dobles (" ").
 
@@ -91,7 +88,7 @@ name = "Alice"
 message = 'Hello, world!'
 ```
 
-- #### 3.1.4. Booleanos (bool)
+## 3.1.4. Booleanos (bool)
 
 Los booleanos representan valores de verdad: `True` o `False`.
 
@@ -100,11 +97,11 @@ is_logged_in = True
 has_permission = False
 ```
 
-### 3.2. Operadores
+## 3.2. Operadores
 
 Los operadores permiten realizar operaciones con variables y valores.
 
-- #### 3.2.1. Aritméticos
+## 3.2.1. Aritméticos
 
 Operadores para cálculos matemáticos:
 
@@ -122,7 +119,7 @@ difference = 10 - 4
 product = 2 * 6
 ```
 
-- #### 3.2.2. Comparación
+## 3.2.2. Comparación
 
 Operadores para comparar valores:
 
@@ -138,7 +135,7 @@ is_equal = 5 == 5  # True
 is_greater = 10 > 5 # True
 ```
 
-- #### 3.2.3. Lógicos
+## 3.2.3. Lógicos
 
 Operadores para combinar condiciones:
 
