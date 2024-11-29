@@ -150,11 +150,15 @@ Hola, mundo!
 Si tu cadena contiene caracteres especiales como comillas dentro del texto, puedes usar el tipo de comilla opuesto para delimitarla, o escapar el carácter especial con una barra invertida (`\`).
 
 ```python
-# Usando comillas dobles para incluir comillas simples dentro del texto
+# Usando las mismas comillas nos dara error
 >>> otra_frase = 'Ella dijo: 'Buenos días''
   File "<stdin>", line 1
     otra_frase = 'Ella dijo: 'Buenos días''
                               ^^^^^^
+# Usando comillas dobles para incluir comillas simples dentro del texto
+>>> otra_frase = "Ella dijo: \'Buenos días\'"
+>>> print(otra_frase)
+Ella dijo: 'Buenos días'
 
 # Usando comillas simples y escapando la comilla simple interna con \
 >>> otra_frase = 'Ella dijo: \'Buenos días\''
